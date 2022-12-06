@@ -1,0 +1,220 @@
+/* ################ */
+/* import */
+
+/* ################ */
+/* colors */
+:root
+{
+    --background: white;
+    --brown: #cc9d64;
+    --grey: #ebebeb;
+}
+/* ################ */
+h1
+{
+    width: 50%;
+    font-size: 5em;
+}
+h3
+{
+    width: 60%;
+}
+h4
+{
+    width: 50%;
+}
+img
+{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* ################ */
+*
+{
+    padding: 0%;
+    margin: 0%;
+}
+
+body
+{
+    background-color: var(--grey);
+}
+
+.colorBrown
+{
+    color: var(--brown);
+}
+
+.homePage
+{
+    height: 100vh;
+    background-image: url("img/living-room.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    background-color: white;
+}
+
+.containerAllPages
+{
+    height: 100%;
+    margin: auto;
+    width: 1140px;
+}
+
+containerHomePage
+{
+    height: 100vh;
+}
+
+.container50
+{
+    width: 50%;
+}
+
+.container40
+{
+    width: 40%;
+}
+
+nav
+{
+    height: 10vh;
+}
+
+li, a, button {
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+    padding: 0 1em;
+    color: black;
+}
+
+.contenueHomePage
+{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn
+{
+    font-weight: bolder;
+    border: 2px solid var(--brown);
+    height: 50px;
+}
+.btn:hover
+{
+    background-color: var(--brown);
+}
+
+.aboutStudio
+{
+    height: 40vh;
+    background-color: var(--grey);
+}
+
+.nomSection
+{
+    font-size: 3em;
+}
+
+.ourServices
+{
+    background-color: white;
+}
+
+.containerCartesServices
+{
+    margin-bottom: 6em;
+}
+
+.iconServicesCard
+{
+    height: 100px;
+    width: 100px;
+}
+
+.ourPortfolio
+{
+    background-color: var(--grey);
+}
+
+.cardsPortfolio
+{
+    flex-wrap: wrap;
+}
+
+.ourPricing
+{
+    background-color: white;
+}
+
+.cardAbonementPricing1
+{
+    height: 400px;
+    width: 300px;
+    border: 2px solid var(--brown);
+    border-radius: 10px;
+}
+
+.price
+{
+    font-size: 4em;
+}
+
+.perMonth
+{
+    color: var(--grey);
+}
+
+.ligneSepaPricing
+{
+    height: 2px;
+    width: 70%;
+    background-color: var(--grey);
+}
+
+.specificationCardPricing
+{
+    font-size: .7em;
+    font-weight: bold;
+    margin: 0%;
+}
+
+.bgBrown
+{
+    background-color: var(--brown);
+}
+
+.peopleSay
+{
+    height: 100vh;
+    background-color: var(--grey);
+}
+
+
+.questions
+{
+    height: 40vh;
+    background-color: white;
+}
+
+.footer
+{
+    height: 50vh;
+}
+
+.footerNavigation>li, a
+{
+    margin: 1em 0;
+    padding: 0;
+}
+
+.iconReseaux
+{
+    cursor: pointer;
+}
+
